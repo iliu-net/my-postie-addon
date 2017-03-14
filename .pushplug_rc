@@ -6,6 +6,9 @@ case "$TRAVIS_BRANCH" in
   master)
     OPENSHIFT_APP="wp3"
     ;;
+  dev*)
+    OPENSHIFT_APP="wp3"
+    ;;  
   *)
     # Disable deployments unless explicitly defined...
     echo "No APP configured"
