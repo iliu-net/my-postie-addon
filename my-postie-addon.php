@@ -3,7 +3,7 @@
 Plugin Name: my-postie-addon
 Plugin URI: https://github.com/iliu-net/my-postie-addon
 Description: My Postie customisation add-on
-Version: 1.0
+Version: 1.1
 Author: Alejandro Liu
 Author URI: http://0ink.net
 License: MIT
