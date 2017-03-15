@@ -65,7 +65,7 @@ if (!class_exists('MyPostieAddOn')) {
       if ($prefix) {
 	$post['post_content'] = '<div><table>'.$prefix.'</table></div>'.$post['post_content'];
       }
-      if (count($headers)) {
+      if (FALSE) { //(count($headers)) {
 	$post['post_content'] .= '<div><table>';
 	foreach ($headers as $i=>$j) {
 	  switch ($i) {
